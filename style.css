@@ -1,0 +1,319 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #fff;
+}
+
+#info {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 20px;
+	z-index: 9999;
+	opacity: 0;
+}
+
+div.bg1 {
+	background: rgb(150,0,0);
+	margin: 0;
+	width: 100%;
+	height: 50%;
+	top: 0;
+	position: fixed;
+}
+
+div.bg2 {
+	background: rgb(200,150,150);
+	margin: 0;
+	width: 100%;
+	height: 50%;
+	position: fixed;
+	bottom: 0;
+}
+
+div.bg3 {
+	background-color: hsl(0,0%,0%);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
+}
+
+div.bg4 {
+	width: 100%;
+	height: 25%;
+	position: fixed;
+	bottom: 0;
+}
+
+img#scrollDown {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -11.0294%;
+}
+
+img#hammer {
+	position: fixed;
+	top: -50px;
+	left: 70%;
+	margin-left: -15.147%;
+	transform-origin:bottom right;
+	-webkit-transform-origin:bottom right;
+	-ms-transform-origin:bottom right;
+	z-index: 100;
+}
+
+img#hammer_flip {
+	position: fixed;
+	top: -50px;
+	left: 70%;
+	margin-left: -15.147%;
+	transform-origin:bottom left;
+	-webkit-transform-origin:bottom left;
+	-ms-transform-origin:bottom left;
+	z-index: 100;
+}
+
+.path_curv {
+	fill:none;
+	stroke:#333333;
+	stroke-width:0.5147%;
+	stroke-linecap:round;
+	stroke-linejoin:miter;
+	stroke-miterlimit:4;
+	stroke-opacity:1;
+	stroke-dasharray:4200;
+	stroke-dashoffset:0;
+	position: absolute;
+	width: 100%;
+}
+
+.path_curv2 {
+	fill:none;
+	stroke-linecap:round;
+	stroke-linejoin:miter;
+	stroke-miterlimit:4;
+	stroke-opacity:1;
+	stroke-dasharray:4200;
+	stroke-dashoffset:0;
+	position: absolute;
+	width: 100%;
+}
+
+#pathwrapper {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+img.car {
+	position: fixed;
+	bottom: 27%;
+	margin-left: -11.029%;
+}
+
+img.carwheel {
+	bottom: 25%;
+	position: absolute;
+	width: 4.7794%;
+	height: 9.143%;
+}
+
+img#city {
+	background: url(images/city-final.png) no-repeat;
+	width: 149.9%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	bottom: 27%;
+	transform-origin: bottom center;
+	-webkit-transform-origin: bottom center;
+	-ms-transform-origin: bottom center;
+}
+
+img#traffic_light {
+	position: fixed;
+	bottom: 29%;
+	margin-right: -2.206%;
+}
+
+img#road {
+	width: 100%;
+	height: 13.9%;
+	position: fixed;
+	bottom: 18%;
+}
+
+div#transparency {
+	background-color: #1e1e1e;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+}
+
+img#docu {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	margin-left: -27.28%;
+}
+
+div#cracking {
+	background-image: url(images/cracking-sprite.jpg);
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+div#broken_glass {
+	background-image:url(images/broken-glass-sprite.jpg);
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	position: fixed;
+}
+
+.message {
+	font-size: 3.67647vw;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 0.03125em 0.03125em 0.03125em rgb(0,0,0);
+	margin: 0;
+	padding: 0.7353%;
+	color: #1C86EE;
+	position: fixed;
+	z-index: 200;
+}
+
+div#scale_bg {
+	background-color: rgb(100,100,255);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	opacity: 0;
+}
+
+img#scale_body {
+	position: fixed;
+	top:20%;
+	left:50%;
+	margin-left: -9.92647%;
+}
+
+img#scale_head {
+	position: fixed;
+	top:23.25%;
+	left:50%;
+	margin-left: -14.963%;
+}
+
+img.scale_catcher1 {
+	left:38%;
+	position: fixed;
+	margin-left: -9.92647%;
+}
+
+img.scale_catcher2 {
+	left:67%;
+	position: fixed;
+	margin-left: -9.92647%;
+	top:29%;
+}
+
+div#final {
+	background-color: #333;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+img.final_header {
+	display: block;
+	position: fixed;
+	left: 50%;
+	margin-left: -32.42647%
+}
+
+#wrapper {
+	width: 52.2%;
+	height: auto;
+	left:50%;
+	top:10%;
+	margin-left: -26.1%; 
+	background: #0d0d0d;
+	padding:0;
+	border: 0.882vw solid rgb(150,150,150);
+	position:fixed;
+	opacity: 0;
+	z-index: 500;
+}
+
+#nav {
+	list-style: none;
+	padding: 0;
+	margin: 0 1.47vw 1.47vw 1.47vw;
+	background: #2e2e2e;
+	display: block;
+	overflow: visible;
+	font-size: 1.059vw;
+	height:2.42647vh;
+	text-transform:capitalize;
+}
+#nav li {
+	display: block;
+}
+#nav li a {
+	display: block;
+	float: left;
+	padding: 0.736vw 1.47vw;
+	color: white;
+	text-decoration: none;
+}
+#nav li a:hover {
+	background: #1b1b1b url(images/nav_bar_o.jpg) repeat-x;
+}
+
+#content {
+	margin: 0 1.47vw 0 1.47vw;
+	padding-left: 0.736vw;
+	padding-right: 0.736vw;
+}
+
+h2 {
+	font-size: 1.882vw;
+	padding: 0.5em 0;
+	color:#568945;
+	font-family:Helvetica, Arial, Sans-serif;
+}
+
+p, ul.ack{
+	font: 0.941vw "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0.4em 0;
+	color:#686868;
+	line-height:1.4em;
+}
+
+#content img.right {
+	float: right;
+	margin: 0 0 0.5882vh 0.5882vw;
+
+}
+
+#foot {
+	margin: 0 1.47vw 0 1.47vw;
+	padding: 2.143vw;
+	color: white;
+	text-align: center;
+	margin: 4.2857vh 0 0 0;
+	border-top:1px solid #222222;
+}

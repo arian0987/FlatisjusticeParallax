@@ -1,0 +1,449 @@
+<html>
+<head>
+	<title>Parallax Flat Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div id="info">0</div>
+
+	<section id="slide_1">
+		<div class="bg2"
+			data-1440="bottom:0"
+			data-1600="bottom:1000px">
+		</div>
+		<div class="bg1"
+			data-1440="top:0"
+			data-1600="top:-1000px">
+		</div>
+		<img id="scrollDown" width="22.06%" height="40%" src="images/arrowDown.png"
+			data-300="transform[linear]:translateY(0px);-webkit-transform[linear]:translateY(0px);-ms-transform[linear]:translateY(0px)"
+			data-300="transform[linear]:translateY(0px);-webkit-transform[linear]:translateY(0px);-ms-transform[linear]:translateY(0px)"
+			data-400="transform[linear]:translateY(200px);-webkit-transform[linear]:translateY(200px);-ms-transform[linear]:translateY(200px)"
+			data-500="transform[linear]:translateY(-20px);-webkit-transform[linear]:translateY(-20px);-ms-transform[linear]:translateY(-20px)"
+			data-900="transform[linear]:translateY(-20px);-webkit-transform[linear]:translateY(-20px);-ms-transform[linear]:translateY(-20px)"
+			data-1000="transform[linear]:translateY(200px);-webkit-transform[linear]:translateY(200px);-ms-transform[linear]:translateY(200px)"
+			data-1100="transform[linear]:translateY(-15px);-webkit-transform[linear]:translateY(-15px);-ms-transform[linear]:translateY(-15px)"
+			data-1400="transform[linear]:translateY(-15px);-webkit-transform[linear]:translateY(-15px);-ms-transform[linear]:translateY(-15px);opacity:1;"
+			data-1500="transform[linear]:translateY(300px);-webkit-transform[linear]:translateY(300px);-ms-transform[linear]:translateY(300px);opacity:0">
+		<img id="hammer" width="39.1%" height="67.14%" src="images/hammer.png" 
+			data-0="transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg)"
+			data-300="transform[swing]: rotate(-20deg);-webkit-transform[swing]: rotate(-20deg);-ms-transform[swing]: rotate(-20deg);"
+			data-600="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);"
+			data-900="transform[swing]: rotate(-20deg);-webkit-transform[swing]: rotate(-20deg);-ms-transform[swing]: rotate(-20deg);"
+			data-1200="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);"
+			data-1500="transform[swing]: rotate(-20deg);-webkit-transform[swing]: rotate(-20deg);-ms-transform[swing]: rotate(-20deg);"
+			data-1440="top:-20px"
+			data-1800="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);"
+			data-1600="top:-1000px"
+			data-8000="top:-1000px;left:70%"
+			data-10000="top: 0px;left:75%"
+			data-10500="transform: rotate(20deg);-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg)"
+			data-10800="transform[swing]: rotate(0deg);-webkit-transform[swing]: rotate(0deg);-ms-transform[swing]: rotate(0deg);"
+			data-11100="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);"
+			data-11400="transform[swing]: rotate(-10deg);-webkit-transform[swing]: rotate(-10deg);-ms-transform[swing]: rotate(-10deg);"
+			data-11700="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);"
+			data-12000="transform[swing]: rotate(-10deg);-webkit-transform[swing]: rotate(-10deg);-ms-transform[swing]: rotate(-10deg);"
+			data-12300="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);"
+			data-12600="transform[swing]: rotate(-20deg);-webkit-transform[swing]: rotate(-20deg);-ms-transform[swing]: rotate(-20deg);"
+			data-12900="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);left:75%"
+			data-13900="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg);left:50%"
+			data-14200="transform[swing]: rotate(-15deg);-webkit-transform[swing]: rotate(-15deg);-ms-transform[swing]: rotate(-15deg)"
+			data-14500="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg)"
+			data-14800="transform[swing]: rotate(-15deg);-webkit-transform[swing]: rotate(-15deg);-ms-transform[swing]: rotate(-15deg)"
+			data-15100="transform[swing]: rotate(20deg);-webkit-transform[swing]: rotate(20deg);-ms-transform[swing]: rotate(20deg)"
+			data-16000="opacity:1"
+			data-16100="opacity:0"
+			data-32000="opacity:0;left:50%;"
+			data-32700="opacity:1;left:60%"
+			data-33000="transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg)"
+			data-33300="transform: rotate(20deg);-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg)"
+			data-33600="transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg)"
+			data-33900="transform: rotate(20deg);-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg)"
+			data-34200="transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg)"
+			data-34500="transform: rotate(20deg);-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg)"
+			data-34800="transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg)"
+			data-35100="transform: rotate(20deg);-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg)"
+			data-35400="transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg)"
+			data-35700="transform: rotate(20deg);-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg);opacity:1;z-index:100"
+			data-36800="opacity:0;z-index:0">
+		</img>
+		<h2 class="message"
+			data-14900="opacity:0;top:0;left:0"
+			data-15200="opacity:1"
+			data-16500="opacity:1"
+			data-17000="opacity:0">Flat makes development smooth and easy</h2>
+		<h2 class="message"
+			data-29300="opacity:0;top:0;left:0;"
+			data-29600="opacity:1"
+			data-30500="opacity:1"
+			data-30800="opacity:0">Flat defines equal rights and authority</h2>
+		<h2 class="message"
+			data-36000="opacity:0;top:0;left:0;"
+			data-36300="opacity:1"
+			data-37500="opacity:1"
+			data-37800="opacity:0">Flat has clear transparency</h2>
+		<h2 class="message" style="color:rgb(243,218,99)"
+			data-46880="opacity:0;top:0;left:25%;"
+			data-47480="opacity:1"
+			data-48480="opacity:1"
+			data-49080="opacity:0">Flat gives balance and fairness</h2>
+			<h2 class="message" style="color:navy"
+			data-49300="opacity:0;top:20%;left:25%;"
+			data-49700="opacity:1"
+			data-50500="opacity:1;z-index:200"
+			data-51000="opacity:0;z-index:0">Look for someone who can straithen the curves...</h2>
+		<h2 class="message"
+			data-38950="opacity:0;transform:translateY(-114.2857vh);left:25%"
+			data-41000="transform[bounce]:translateY(0vh);opacity:1"
+			data-42000="transform[bounce]:translateY(57.143vh)"
+			data-42050="transform:translateY(62.143vh)"
+			data-43260="transform:translateY(62.143vh)"
+			data-43460="transform:transslateY(64.2857vh)"
+			data-44280="transform:translateY(64.2857vh)"
+			data-44480="transform:translateY(61.42857vh)"
+			data-45620="transform:translateY(61.42857vh)"
+			data-45820="transform:translateY(58.57vh)"
+			data-48480="opacity:1"
+			data-49080="opacity:0">Unreliable</h2>
+			<h2 class="message"
+			data-42100="opacity:0;transform:translateY(-114.2857vh);left:25%"
+			data-42400="transform[bounce]:translateY(0vh);opacity:1"
+			data-43400="transform[bounce]:translateY(57.143vh)"
+			data-43460="transform:translateY(58.57vh)"
+			data-44280="transform:translateY(58.57vh)"
+			data-44480="transform:translateY(57.143vh)"
+			data-45620="transform:translateY(57.143vh)"
+			data-45820="transform:translateY(55vh)"
+			data-48480="opacity:1"
+			data-49080="opacity:0">Judgemental</h2>
+			<h2 class="message"
+			data-43460="opacity:0;transform:translateY(-114.2857vh);left:53%"
+			data-43760="transform[bounce]:translateY(0vh);opacity:1"
+			data-44760="transform[bounce]:translateY(52.857vh)"
+			data-44820="transform:translateY(55vh)"
+			data-45620="transform:translateY(55vh)"
+			data-45820="transform:translateY(58.57vh)"
+			data-48480="opacity:1"
+			data-49080="opacity:0">Trustworthy</h2>
+			<h2 class="message"
+			data-44820="opacity:0;transform:translateY(-114.2857vh);left:53%"
+			data-45120="transform[bounce]:translateY(0vh);opacity:1"
+			data-46120="transform[bounce]:translateY(51.42857vh)"
+			data-46880="transform:translateY(55vh)"
+			data-48480="opacity:1"
+			data-49080="opacity:0">Openness</h2>
+		<div id="cars_and_city" class="bg3"
+			data-1600="background-color: hsl(0,0%,0%)"
+			data-5000="background-color: hsl(0,0%,100%)"
+			data-20500="background-color: hsl(0,0%,100%)"
+			data-25500="background-color: hsl(240,100%,9.8%)">
+			<object id="pathwrapper">
+				<svg version="1.1" width="100%" height="100%" style="position:absolute">
+					<path id="land_path" class="path_curv"
+						data-6000="stroke-dashoffset:6000;" 
+						data-10000="stroke-dashoffset:0;"
+
+						d="M1358.327,517.33c-42.746,10.574-87.363,8.21-129.811-2.621c-37.61-9.596-72.99-27.947-100.783-55.228 c-28.515-27.99-48.608-63.153-71.227-95.745c-21.304-30.698-45.178-60.664-75.139-83.379 c-29.714-22.528-65.284-36.857-102.988-35.477c-35.674,1.306-68.683,18.827-95.824,40.941 c-29.661,24.167-53.096,54.445-67.803,89.777c-7.72,18.545-13.152,38.28-23.276,55.729 c-10.399,17.922-26.716,29.478-45.543,37.372c-39.71,16.65-83.92,14.273-124.787,3.611 c-41.399-10.801-79.524-30.685-121.725-38.941c-86.031-16.831-170.721,7.249-254.006,26.783 c-47.59,11.162-95.798,19.799-144.812,20.262"/>
+				</svg>
+			</object>
+			<img id="city" width="149.9%" height="100%" src="images/city-final.png"
+				data-18500="transform: rotateX(-90deg);-webkit-transform: rotateX(-90deg);-ms-transform: rotateX(-90deg);"
+				data-20500="transform: rotateX(0deg);-webkit-transform: rotateX(0deg);-ms-transform: rotateX(0deg);left:0%"
+				data-27500="left:-70%">
+			<img id="traffic_light" width="4.41%" height="30.2857%" src="images/traffic-light.png"
+				data-25700="right:-20%"
+				data-27500="right:20%">
+			<div class="bg4"
+				data-15100="background: hsl(120,100%,50%);opacity:0"
+				data-16000="opacity:1"
+				data-20500="background: hsl(120,100%,50%)"
+				data-25500="background: hsl(120,100%,19.6%)">
+				<img id="road" src="images/road.png">
+			</div>
+
+			<img class="car" width="22.059%" height="15.42857%" src="images/red-body.png"
+				data-16500="left:-20%"
+				data-18500="left: 60%">
+				<img class="carwheel" src="images/wheel.png"
+					data-16500="transform: rotate(0deg);left:-30%"
+					data-18500="transform: rotate(1800deg);left:50%"
+					data-27500="transform: rotate(3600deg)">
+				<img class="carwheel" src="images/wheel.png"
+					data-16500="transform: rotate(0deg);left:-15%"
+					data-18500="transform: rotate(1800deg);left:65%"
+					data-27500="transform: rotate(3600deg)">
+
+			<img class="car" width="22.059%" height="15.42857%" src="images/blue-body.png"
+				data-16500="left:-45%"
+				data-18500="left: 35%">
+				<img class="carwheel" src="images/wheel.png"
+					data-16500="transform: rotate(0deg);left:-55%"
+					data-18500="transform: rotate(1800deg);left:25%"
+					data-27500="transform: rotate(3600deg)">
+				<img class="carwheel" src="images/wheel.png"
+					data-16500="transform: rotate(0deg);left:-40%"
+					data-18500="transform: rotate(1800deg);left:40%"
+					data-27500="transform: rotate(3600deg)">
+
+			<img class="car" width="22.059%" height="15.42857%" src="images/green-body.png"
+				data-16500="left:-70%"
+				data-18500="left: 10%">
+				<img class="carwheel" src="images/wheel.png"
+					data-16500="transform: rotate(0deg);left:-80%"
+					data-18500="transform: rotate(1800deg);left:0%"
+					data-27500="transform: rotate(3600deg)">
+				<img class="carwheel" src="images/wheel.png"
+					data-16500="transform: rotate(0deg);left:-65%"
+					data-18500="transform: rotate(1800deg);left:15%"
+					data-27500="transform: rotate(3600deg)">
+
+			<img id="boss" class="car" width="22.059%" height="15.42857%" src="images/boss-car.png"
+				data-27500="left:-20%"
+				data-29000="left: 80%">
+				<img id="boss_wh1" class="carwheel" src="images/wheel.png"
+					data-27500="transform: rotate(0deg);left:-30%"
+					data-29000="transform: rotate(1800deg);left:70%">
+				<img id="boss_wh2" class="carwheel" src="images/wheel.png"
+					data-27500="transform: rotate(0deg);left:-15%"
+					data-29000="transform: rotate(1800deg);left:85%">
+
+			<img id="hammer_flip" width="39.1%" height="67.14%" src="images/hammer-flip.png" 
+				data-0="opacity:0"
+				data-28000="opacity:0;left:0%"
+				data-29000="opacity:1;left:57%;transform:rotate(0deg)"
+				data-29200="transform:rotate(20deg)"
+				data-29400="transform:rotate(0deg)">
+		</div>
+		
+		<div id="transparency"
+			data-0="opacity:0"
+			data-30000="opacity:0"
+			data-31000="opacity:1"
+			data-37800="opacity:1"
+			data-39000="opacity:0">
+			<img id="docu" width="54.5588%" height="77.22%" src="images/docu_transparency.png"
+				data-31000="opacity:0"
+				data-32000="opacity:1">
+			<div id="cracking"
+				data-35400="opacity:0.8"
+				data-35700="opacity:0"></div>
+			<div id="broken_glass"
+				data-35300="opacity:0"
+				data-35400="opacity:1"
+				data-35650="opacity:1"
+				data-35700="opacity:0">
+			</div>
+		</div>
+		<div id="scale_bg"
+			data-38000="opacity:0"
+			data-39000="opacity:1"
+			data-48480="opacity:1"
+			data-49080="opacity:0">
+			<img id="scale_body" width="19.853%" height="66.2857%" src="images/scale-body.png">
+			<img id="scale_head" width="29.92647%" height="8%" src="images/scale-head.png"
+				data-41500="transform:rotate(0deg)"
+				data-41700="transform:rotate(-5deg)"
+				data-42900="transform:rotate(-5deg)"
+				data-43100="transform:rotate(-10deg)"
+				data-44280="transform:rotate(-10deg)"
+				data-44480="transform:rotate(-5deg)"
+				data-45620="transform:rotate(-5deg)"
+				data-45820="transform:rotate(0deg)">
+			<img class="scale_catcher1" width="13.97%" height="42%" src="images/scale-catcher.png"
+				data-41500="top:29%;"
+				data-41700="top:32%"
+				data-42900="top:32%"
+				data-43100="top:35%"
+				data-44280="top:35%"
+				data-44480="top:32%"
+				data-45620="top:32%"
+				data-45820="top:29%">
+			<img class="scale_catcher2" width="13.97%" height="42%" src="images/scale-catcher.png"
+				data-41500="top:29%"
+				data-41700="top:26%"
+				data-42900="top:26%"
+				data-43100="top:23%"
+				data-44280="top:23%"
+				data-44480="top:26%"
+				data-45620="top:26%"
+				data-45820="top:29%">
+		</div>
+
+		<div id="semi-final"
+			data-56000="opacity:1"
+			data-56600="opacity:0">
+			<object id="pathwrapper">
+				<svg version="1.1" width="100%" height="100%" style="position:absolute">
+					<text class="path_curv" transform="matrix(0.9337 0.3582 -0.3582 0.9337 69.0463 207.6037)" font-family="'Garamond'" font-size="200" data-51000="stroke-dashoffset:6000;fill:none" data-53800="stroke-dashoffset:0;stroke-width:0.5147%;" data-54000="stroke-width:1.5%;">Vote_Wisely</text>
+					<ellipse transform="matrix(0.9409 0.3386 -0.3386 0.9409 262.9445 -352.7115)" fill="none" stroke="#000000" stroke-miterlimit="10" cx="1142.287" cy="577.201" rx="104.977" ry="72.536" data-51000="opacity:0" data-53800="opacity:1;stroke-width:0.5147%;" data-55000="stroke-width:1.5%;"/>
+				</svg>
+			</object>
+
+			<object id="pathwrapper">
+				<svg version="1.1" width="100%" height="100%" style="position:absolute">
+					<path class="path_curv2" fill="none" stroke="#000000" stroke-width="16" stroke-miterlimit="10" 
+						data-54200="stroke-dashoffset:6000;" 
+						data-55000="stroke-dashoffset:0;"
+						d="M1053,547v8l36.5-45.5c0,0-37.5,57-34,62 s35.5-66.5,50-62s-62,88.5-43.5,80s54-90.908,64.5-80.204S1059,601,1072.5,603.5s64.575-98.5,69.787-89.5S1076,610.5,1087,613 s61.5-102,72-92s-66.5,99.5-56.5,100.5s4.5,7.5,8.5,7.5s60-108.5,65-104.5s-56.5,110-51,110s58-110,65.5-105s6.5-0.5,7.5,5	S1129.575,637,1142.287,641S1208,542.5,1211,547s-50,99.5-47,99.5s55-91.5,59-85.5s-43,87.5-39,85.5s45-70.5,48-65.5 s-27,56-23.5,56.5"/>
+				</svg>
+			</object>
+		</div>
+
+		<div id="final"
+			data-56600="opacity:0"
+			data-57500="opacity:1">
+			<div id="wrapper"
+			data-58100="opacity:0"
+			data-59100="opacity:1">
+				<img src="images/header.jpg" width="100%" height="18.857%" style="position:relative">
+				<ul id="nav">
+			        <li><a href="#welcome.html">welcome</a></li>
+			        <li><a href="#about.html">about</a></li>
+			        <li><a href="#acknowledgement.html">acknowledgement</a></li>
+			        <li><a href="#contact.html">contact</a></li>
+			        <li><a href="#terms.html">terms</a></li>
+			    </ul>
+			    <div id="content">    	
+			        <h2>Welcome!</h2>
+			        <p>Hi, welcome to my website with a theme "Flat is Justice"</p>
+			        <p>A simple project made in just few days of internship. I hope you have enjoyed scrolling.</p>
+			    </div>
+			    <div id="foot"><p style="color:#fff">Simple Project by Arian</p></div>
+			</div>
+			<img class="final_header" height="10%" width="64.85294%%" src="images/flat_is_justice_3d.png"
+			data-57500="transform:translateY(-114.2857vh)"
+			data-58000="transform:translateY(80vh)"
+			data-58100="opacity:1"
+			data-59100="opacity:0">
+			<img class="final_header" height="10%" width="64.85294%%" src="images/flat_is_justice.png"
+			data-58100="opacity:0;top:80%"
+			data-59100="opacity:1">
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript">
+		var scroll_guide = $('div#info');
+		var path_code = $('path#land_path');
+		var hammer = $('div#hammer');
+		var boss = $('img#boss');
+		var boss_wh1 = $('img#boss_wh1');
+		var boss_wh2 = $('img#boss_wh2');
+
+		var cracking = $('div#cracking'),
+		picLocs6 = [0, -1366, -2732, -4098, -5464, -6830, -8196, -9562, -10928, -12294, -13660, -15026, -16392, -17758, -19124, -20490, -21856, -23222, -24588, -25954, -27320, -28686,],
+		curForm6 = 0,
+		lastScroll6 = 0;
+
+		var broken_glass = $('div#broken_glass'),
+		picLocs7 = [0, -1366, -2732, -4098, -5464, -6830, -8196],
+		curForm7 = 0,
+		lastScroll7 = 0;
+
+		var skrollr = skrollr.init({
+			smoothScrolling: true,
+			render: function (scrollpos) {
+				//log current scroll position
+				scroll_guide.text(scrollpos.curTop);
+				//strike the land line with hammer
+				if (scrollpos.curTop >= 10800 && scrollpos.curTop < 11100) {
+					path_code.attr('d','M1358.327,517.33c-42.746,10.574-87.363,8.21-129.811-2.621c-37.61-9.596-72.99-27.947-100.783-55.228c-28.515-27.99-48.608-63.153-71.227-95.745c-21.304-30.698-45.178-60.664-75.139-83.379c-7.746-5.873-14.449-9.748-23.948-11.817c-9.593-2.089-19.543-2.59-29.33-2.722c-25.34-0.341-50.805,2.827-75.704,7.309c-23.448,4.221-47.144,9.804-69.155,19.086c-6.954,2.933-13.857,6.334-19.72,11.145c-12.702,10.421-23.291,25.622-32.105,39.349c-10.684,16.639-17.745,35.148-24.667,53.57c-6.928,18.44-13.728,36.697-27.513,51.237c-13.884,14.644-34.227,22.711-53.337,27.791c-20.647,5.489-42.043,6.563-63.254,4.669c-43.386-3.874-82.39-22.429-123.116-36.138c-40.668-13.69-83.693-18.085-126.405-15.576c-51.758,3.04-102.173,16.185-152.374,28.255c-52.651,12.659-105.777,23.386-160.135,23.899c-1.934,0.018-1.935,3.018,0,3');
+				} else if (scrollpos.curTop < 10800) {
+					path_code.attr('d','M1358.327,517.33c-42.746,10.574-87.363,8.21-129.811-2.621c-37.61-9.596-72.99-27.947-100.783-55.228 c-28.515-27.99-48.608-63.153-71.227-95.745c-21.304-30.698-45.178-60.664-75.139-83.379 c-29.714-22.528-65.284-36.857-102.988-35.477c-35.674,1.306-68.683,18.827-95.824,40.941 c-29.661,24.167-53.096,54.445-67.803,89.777c-7.72,18.545-13.152,38.28-23.276,55.729 c-10.399,17.922-26.716,29.478-45.543,37.372c-39.71,16.65-83.92,14.273-124.787,3.611 c-41.399-10.801-79.524-30.685-121.725-38.941c-86.031-16.831-170.721,7.249-254.006,26.783 c-47.59,11.162-95.798,19.799-144.812,20.262');
+				}
+
+				if (scrollpos.curTop >= 11400 && scrollpos.curTop < 11700) {
+					path_code.attr('d','M1358.327,517.33c-42.746,10.574-87.363,8.21-129.811-2.621c-37.61-9.596-72.99-27.947-100.783-55.228 c-28.515-27.99-48.608-63.153-71.227-95.745c-5.309-7.65-17.265-10.331-25.655-12.459c-38-9.641-78.861-10.493-117.832-11.46 c-44.2-1.096-88.636-0.419-132.708,3.3c-14.218,1.2-28.633,2.56-42.562,5.774c-3.679,0.849-7.522,1.836-10.831,3.714 c-0.98,0.556-1.805,1.261-2.489,2.15c-4.888,6.34-7.59,15.729-10.607,23.124c-7.539,18.476-13.01,38.076-23.426,55.226 c-10.768,17.73-27.699,28.893-46.641,36.465c-40.063,16.014-84.157,13.098-125.036,2.087 c-41.364-11.142-79.493-30.834-121.859-38.767c-41.634-7.796-84.116-6.227-125.842-0.069 c-43.29,6.389-85.599,18.007-128.157,27.928c-43.341,10.104-87.193,17.997-131.762,19.473c-3.497,0.116-6.996,0.16-10.494,0.193 c-1.934,0.018-1.935,3.018,0,3c43.1-0.407,85.681-7.052,127.698-16.287c42.715-9.388,84.886-21.2,127.972-28.876');
+				} else if (scrollpos.curTop >= 10800 && scrollpos.curTop < 11100) {
+					path_code.attr('d','M1358.327,517.33c-42.746,10.574-87.363,8.21-129.811-2.621c-37.61-9.596-72.99-27.947-100.783-55.228c-28.515-27.99-48.608-63.153-71.227-95.745c-21.304-30.698-45.178-60.664-75.139-83.379c-7.746-5.873-14.449-9.748-23.948-11.817c-9.593-2.089-19.543-2.59-29.33-2.722c-25.34-0.341-50.805,2.827-75.704,7.309c-23.448,4.221-47.144,9.804-69.155,19.086c-6.954,2.933-13.857,6.334-19.72,11.145c-12.702,10.421-23.291,25.622-32.105,39.349c-10.684,16.639-17.745,35.148-24.667,53.57c-6.928,18.44-13.728,36.697-27.513,51.237c-13.884,14.644-34.227,22.711-53.337,27.791c-20.647,5.489-42.043,6.563-63.254,4.669c-43.386-3.874-82.39-22.429-123.116-36.138c-40.668-13.69-83.693-18.085-126.405-15.576c-51.758,3.04-102.173,16.185-152.374,28.255c-52.651,12.659-105.777,23.386-160.135,23.899c-1.934,0.018-1.935,3.018,0,3');
+				}
+
+				if (scrollpos.curTop >= 12000 && scrollpos.curTop < 12300) {
+					path_code.attr('d','M1358.327,517.33c-78.009,19.297-170.182-0.683-229.118-56.392c-5.922-5.597-15.653-7.918-23.2-10.155 c-14.772-4.379-29.942-7.459-45.064-10.338c-86.653-16.495-175.481-25.463-263.494-30.484 c-28.521-1.627-58.854-4.537-87.268-0.092c-2.816,0.44-5.807,1.003-8.322,2.414c-0.777,0.436-1.45,1.036-1.934,1.783 c-1.506,2.325-2.348,5.47-3.539,8.021c-2.063,4.422-4.489,8.658-7.106,12.771c-22.288,35.035-70.306,46.134-109.183,46.04 c-43.448-0.105-83.592-16.108-123.619-31.048c-40.317-15.048-81.959-22.797-125.037-22.302 c-87.235,1.002-170.027,33.201-255.491,46.503c-24.931,3.88-50.114,6.126-75.348,6.365c-1.934,0.018-1.935,3.018,0,3');
+				} else if (scrollpos.curTop >= 11400 && scrollpos.curTop < 11700) {
+					path_code.attr('d','M1358.327,517.33c-42.746,10.574-87.363,8.21-129.811-2.621c-37.61-9.596-72.99-27.947-100.783-55.228 c-28.515-27.99-48.608-63.153-71.227-95.745c-5.309-7.65-17.265-10.331-25.655-12.459c-38-9.641-78.861-10.493-117.832-11.46 c-44.2-1.096-88.636-0.419-132.708,3.3c-14.218,1.2-28.633,2.56-42.562,5.774c-3.679,0.849-7.522,1.836-10.831,3.714 c-0.98,0.556-1.805,1.261-2.489,2.15c-4.888,6.34-7.59,15.729-10.607,23.124c-7.539,18.476-13.01,38.076-23.426,55.226 c-10.768,17.73-27.699,28.893-46.641,36.465c-40.063,16.014-84.157,13.098-125.036,2.087 c-41.364-11.142-79.493-30.834-121.859-38.767c-41.634-7.796-84.116-6.227-125.842-0.069 c-43.29,6.389-85.599,18.007-128.157,27.928c-43.341,10.104-87.193,17.997-131.762,19.473c-3.497,0.116-6.996,0.16-10.494,0.193 c-1.934,0.018-1.935,3.018,0,3c43.1-0.407,85.681-7.052,127.698-16.287c42.715-9.388,84.886-21.2,127.972-28.876');
+				}
+
+				if (scrollpos.curTop >= 12600 && scrollpos.curTop < 12900) {
+					path_code.attr('d','M1358.327,517.33c-5.248,1.295-10.999,1.145-16.362,1.263c-10.341,0.227-20.693,0.05-31.032-0.177 c-32.157-0.707-64.297-2.258-96.418-3.884c-89.208-4.516-178.353-10.284-267.485-16.086 c-82.485-5.369-164.952-11.023-247.453-16.138c-23.78-1.474-47.569-3.016-71.378-3.948c-4.886-0.191-9.867-0.545-14.756-0.219 c-3.62,0.241-7.243,1.124-10.839,1.573c-10.77,1.345-21.672,1.417-32.495,0.841c-21.586-1.15-42.858-6.071-63.451-12.436 c-19.472-6.018-38.267-14.002-57.425-20.915c-20.376-7.354-41.25-12.726-62.662-16.025c-41.853-6.449-84.327-3.599-125.923,3.292 c-43.162,7.15-85.39,18.977-128.022,28.622c-43.395,9.818-87.446,16.902-132.023,17.323c-1.934,0.018-1.935,3.018,0,3');
+				} else if (scrollpos.curTop >= 12000 && scrollpos.curTop < 12300) {
+					path_code.attr('d','M1358.327,517.33c-78.009,19.297-170.182-0.683-229.118-56.392c-5.922-5.597-15.653-7.918-23.2-10.155 c-14.772-4.379-29.942-7.459-45.064-10.338c-86.653-16.495-175.481-25.463-263.494-30.484 c-28.521-1.627-58.854-4.537-87.268-0.092c-2.816,0.44-5.807,1.003-8.322,2.414c-0.777,0.436-1.45,1.036-1.934,1.783 c-1.506,2.325-2.348,5.47-3.539,8.021c-2.063,4.422-4.489,8.658-7.106,12.771c-22.288,35.035-70.306,46.134-109.183,46.04 c-43.448-0.105-83.592-16.108-123.619-31.048c-40.317-15.048-81.959-22.797-125.037-22.302 c-87.235,1.002-170.027,33.201-255.491,46.503c-24.931,3.88-50.114,6.126-75.348,6.365c-1.934,0.018-1.935,3.018,0,3');
+				}
+
+				if (scrollpos.curTop >= 14200 && scrollpos.curTop < 14500) {
+					path_code.attr('d','M1358.327,517.33c-5.248,1.295-10.999,1.145-16.362,1.263c-10.341,0.227-20.693,0.05-31.032-0.177 c-32.157-0.707-64.297-2.258-96.418-3.884c-89.208-4.516-178.353-10.284-267.485-16.086 c-82.485-5.369-164.952-11.023-247.453-16.138c-23.78-1.474-47.569-3.016-71.378-3.948c-4.886-0.191-9.867-0.545-14.756-0.219 c-3.62,0.241-7.243,1.124-10.839,1.573c-10.77,1.345-21.672,1.417-32.495,0.841c-21.586-1.15-42.858-6.071-63.451-12.436 c-8.516-2.632-16.902-7.047-25.783-8.238c-4.314-0.578-8.673-0.812-13.018-1.019c-15.109-0.721-30.26-0.709-45.382-0.674 c-45.538,0.108-91.08,1.356-136.591,2.864c-45.878,1.521-91.756,3.391-137.581,6.101c-15.551,0.92-31.108,1.908-46.619,3.373 c-24.174,2.283-47.978,7.038-72.248,8.78c-9.596,0.689-19.214,1.019-28.833,1.109c-1.934,0.018-1.935,3.018,0,3');
+				} else if (scrollpos.curTop >= 12600 && scrollpos.curTop < 14200) {
+					path_code.attr('d','M1358.327,517.33c-5.248,1.295-10.999,1.145-16.362,1.263c-10.341,0.227-20.693,0.05-31.032-0.177 c-32.157-0.707-64.297-2.258-96.418-3.884c-89.208-4.516-178.353-10.284-267.485-16.086 c-82.485-5.369-164.952-11.023-247.453-16.138c-23.78-1.474-47.569-3.016-71.378-3.948c-4.886-0.191-9.867-0.545-14.756-0.219 c-3.62,0.241-7.243,1.124-10.839,1.573c-10.77,1.345-21.672,1.417-32.495,0.841c-21.586-1.15-42.858-6.071-63.451-12.436 c-19.472-6.018-38.267-14.002-57.425-20.915c-20.376-7.354-41.25-12.726-62.662-16.025c-41.853-6.449-84.327-3.599-125.923,3.292 c-43.162,7.15-85.39,18.977-128.022,28.622c-43.395,9.818-87.446,16.902-132.023,17.323c-1.934,0.018-1.935,3.018,0,3');
+				}
+
+				if (scrollpos.curTop >= 14800 && scrollpos.curTop < 15100) {
+					path_code.attr('d','M0.603,526.582c26.641-0.165,53.288-0.005,79.929,0.011c62.509,0.039,125.019,0.09,187.528,0.138 c84.436,0.065,168.871,0.13,253.307,0.189c92.422,0.064,184.845,0.121,277.267,0.162c86.469,0.039,172.938,0.065,259.408,0.059 c66.576-0.005,133.153-0.021,199.729-0.122c32.738-0.05,65.495,0.135,98.231-0.379c0.908-0.014,1.816-0.03,2.724-0.058 c1.93-0.059,1.936-3.059,0-3');
+				} else if (scrollpos.curTop >= 14200 && scrollpos.curTop < 14500) {
+					path_code.attr('d','M1358.327,517.33c-5.248,1.295-10.999,1.145-16.362,1.263c-10.341,0.227-20.693,0.05-31.032-0.177 c-32.157-0.707-64.297-2.258-96.418-3.884c-89.208-4.516-178.353-10.284-267.485-16.086 c-82.485-5.369-164.952-11.023-247.453-16.138c-23.78-1.474-47.569-3.016-71.378-3.948c-4.886-0.191-9.867-0.545-14.756-0.219 c-3.62,0.241-7.243,1.124-10.839,1.573c-10.77,1.345-21.672,1.417-32.495,0.841c-21.586-1.15-42.858-6.071-63.451-12.436 c-8.516-2.632-16.902-7.047-25.783-8.238c-4.314-0.578-8.673-0.812-13.018-1.019c-15.109-0.721-30.26-0.709-45.382-0.674 c-45.538,0.108-91.08,1.356-136.591,2.864c-45.878,1.521-91.756,3.391-137.581,6.101c-15.551,0.92-31.108,1.908-46.619,3.373 c-24.174,2.283-47.978,7.038-72.248,8.78c-9.596,0.689-19.214,1.019-28.833,1.109c-1.934,0.018-1.935,3.018,0,3');
+				}
+
+				if (scrollpos.curTop >= 29200) {
+					boss.attr('src','images/boss-car-crashed.png');
+					boss_wh1.css('display','none');
+					boss_wh2.css('display','none');
+				} else if (scrollpos.curTop < 29200) {
+					boss.attr('src','images/boss-car.png');
+					boss_wh1.css('display','block');
+					boss_wh2.css('display','block');
+				}
+
+				if (scrollpos.curTop >= 31000) {
+					$('div#cars_and_city').css('display','none');
+				} else if (scrollpos.curTop < 31000) {
+					$('div#cars_and_city').css('display','block');
+				}
+
+				//--cracking animation--//
+				if (scrollpos.curTop >= 33000 && scrollpos.curTop < 35700) {
+					if (scrollpos.curTop > lastScroll6 + 100) {
+						if (curForm6 >= 22) {
+							curForm6 = 21;
+						}
+						cracking.css('background-position', picLocs6[++curForm6] + 'px 0px');
+						lastScroll6 = scrollpos.curTop;
+					} else if (scrollpos.curTop < lastScroll6 - 100) {
+						if (curForm6 <= 0) { 
+							curForm6 = 1; 
+						}
+						cracking.css('background-position', picLocs6[--curForm6] + 'px 0px');
+						lastScroll6 = scrollpos.curTop;
+					}
+				}
+
+				if (scrollpos.curTop >= 35400 && scrollpos.curTop < 37000) {
+					if (scrollpos.curTop > lastScroll7 + 100) {
+						if (curForm7 >= 7) {
+							curForm7 = 6;
+						}
+						broken_glass.css('background-position', picLocs7[++curForm7] + 'px 0px');
+						lastScroll7 = scrollpos.curTop;
+					//if the user scroll 100px up we will move back to the previous frame in our broken_glass spritesheet
+					} else if (scrollpos.curTop < lastScroll7 - 100) {
+						if (curForm7 <= 0) { 
+							curForm7 = 1; 
+						}
+						broken_glass.css('background-position', picLocs7[--curForm7] + 'px 0px');
+						lastScroll7 = scrollpos.curTop;
+					}
+				}
+			}
+		});
+	</script>
+	<script type="text/javascript">
+	  $(function(){
+	    $("#nav a").click(function(){
+	      var page = this.hash.substr(1);
+	      $.get(page, function(gotHtml){
+	        $("#content").html(gotHtml);
+	      });
+	    });
+	  });
+	</script>
+</body>
+</html>
